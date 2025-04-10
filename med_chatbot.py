@@ -56,7 +56,10 @@ You are a helpful assistant. You will be provided with a question and a context.
 Context: {context}
 Question: {question}
 
-Be concise and accurate, no need to add any extra information. Avoid unecessary details. Do not drag on the answer.
+
+Be concise and accurate, no need to add any extra information. Write your answer is paragraphs. 
+
+First explain what was asked of you. Then if the question is about any type of sickness or disease of medical condition, tell the symptoms of said disease. Finally, recommend ways to avoid the mentioned sickness or diesease. Avoid unecessary details. Do not drag on the answer.
 
 If the context does not provide enough information, say "I am not equipped to answer this question". Do not make up answers.
 """
